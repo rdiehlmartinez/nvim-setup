@@ -44,3 +44,5 @@ brew install python@3.8
 ```
 
 The next step is to actually install the lua packages. To do so, go into the `plugins/setup-plugins.lua` and save the file so that everything is automatically installed.
+
+Note - there is one package which is [mason](https://github.com/williamboman/mason.nvim) which is somewhat special because it is the lua neovim package manager. The way things are setup it should be able to install itself automatically if it is not detected in the system.
