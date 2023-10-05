@@ -10,7 +10,7 @@ vim.opt.title = true
 -- search related options 
 vim.opt.smarttab = true 
 vim.opt.breakindent = true 
-vim.opt.tabstop = 4 
+vim.opt.tabstop = 2
 vim.opt.autoindent = true 
 vim.opt.hlsearch = true 
 vim.opt.ignorecase = true 
@@ -21,7 +21,7 @@ vim.opt.wildignore:append { '*/node_modules/*' }
 
 -- indentation related options
 vim.opt.expandtab = true
-vim.opt.shiftwidth = 4
+vim.opt.shiftwidth = 2
 vim.opt.ai = true 
 vim.opt.si = true 
 vim.opt.wrap = false 
